@@ -91,6 +91,7 @@ namespace customerCRUD
 
         public static string ExecuteSqlCmd(string cmdStr, TraceWriter log)
         {
+            //executing sql command 
             string ExecuteSqlResult = string.Empty;
             try
             {
@@ -111,6 +112,7 @@ namespace customerCRUD
         }
     }
     
+
     public class Customer
     {
         public int id { get; set; }
